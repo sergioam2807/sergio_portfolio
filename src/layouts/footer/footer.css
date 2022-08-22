@@ -1,0 +1,39 @@
+
+.footer_section{
+    display: flex;
+    justify-content: center;
+    border-top:black 1px solid;
+    height: 65px;
+}
+
+.footer__socialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon{
+    display: inline-block;
+    animation: float 5s ease-in-out infinite;
+
+}
+
+.icon_git{
+    animation-delay: 1s;
+}
+.icon_linkn{
+    animation-delay: 2s;
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-8px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

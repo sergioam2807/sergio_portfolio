@@ -1,0 +1,36 @@
+.card_container{
+    border: black 2px solid;
+    border-radius: 5%;
+    height: 360px;
+    width: 360px;
+    margin: 10px ;
+    
+}
+
+.card_title{
+    padding-left: 10px;
+    border-bottom:black 2px solid;
+}
+
+.card_img_container{
+    display: flex;
+    justify-content: center;
+    border:red 2px solid;
+    margin: 3px;
+}
+
+.img_img{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 260px;
+    width: 260px; 
+    object-fit: cover;
+}
+
+.card_footer{
+    border-top:black 2px solid;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
